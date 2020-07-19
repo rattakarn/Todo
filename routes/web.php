@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', "HomeController@index");
 Route::get('/create', "HomeController@create");
-Route::get('/about', "HomeController@about");
+Route::get('/login', "HomeController@login");
 //Route::get('/show', "HomeController@show");
 //Route::get('/create', "HomeController@create");
 // Route::get('/', "HomeController@store");

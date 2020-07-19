@@ -14,9 +14,9 @@ class HomeController extends Controller
     {
         return view('create');
     }
-    public function about()
+    public function login()
     {
-        return view('about');
+        return view('login');
     }
 
 
