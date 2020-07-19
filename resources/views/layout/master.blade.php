@@ -13,7 +13,7 @@
 <body>
     <div class="container">
     <h1><i class="fa fa-list"></i> Todo List ::</h1>
-            @if ($auth()->check())
+            @if (auth()->check())
             สวัสดี, {{auth()->user()->name}} | <a href="/logout">ออกจากระบบ</a>
 
             @else
