@@ -1,9 +1,7 @@
 @extends('layout.master')
 @section('content')
 
-<body>
-    <div class="container">
-    <h1><i class="fa fa-list"></i> Todo List ::</h1>
+
         <p>กรองสถานะ : <a href="#">ทั้งหมด</a> | <a href="#">Completed</a> | <a href="#">Incomplete</a></p>
 <div class="panel panel-default">
     <div class="panel-heading">
