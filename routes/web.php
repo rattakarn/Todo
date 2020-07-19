@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', "HomeController@index");
 Route::get('/create', "HomeController@create");
 Route::get('/login', "HomeController@login");
-//Route::get('/show', "HomeController@show");
-//Route::get('/create', "HomeController@create");
-// Route::get('/', "HomeController@store");
-// Route::get('/', "HomeController@update");
-// Route::get('/', "HomeController@delete");
+Route::post('/store', "HomeController@store");
+Route::get('/delete/{id}', "HomeController@delete");
+// Route::get('/', "HomeController@");
+// Route::get('/', "HomeController@");
+// Route::get('/', "HomeController@");
 
